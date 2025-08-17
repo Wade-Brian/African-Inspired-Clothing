@@ -1,0 +1,80 @@
+body {
+    font-family:  'segoe UI'. 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#fafafa
+}
+
+.navbar {
+    background-color: #2b2b2b;
+}
+
+.navbar-brand, .nav-link{
+    color:#fff !important;
+    font-weight:500;
+}
+
+.navbar-brand span {
+    color:#e67e22
+}
+
+.hero {
+    background:url('https://images.unsplash.com/photo-1598387845854-93d495daf3f6?xlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') center/cover no-repeat
+    color:#fff;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-attchment: fixed;
+}
+
+.hero h1 {
+    font-size:3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.product-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(o, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+.product-card:hover {
+    transform: scale(1.03);
+}
+.product-card img {
+    height: 250px;
+    object-fit:cover
+}
+.btn-shop {
+    backgroun-color: #e67e22;
+    border: none;
+    color: #fff;
+    font-weight:500;
+}
+.btn-shop:hover {
+    background-color: #cf711f
+}
+
+.footer {
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}
